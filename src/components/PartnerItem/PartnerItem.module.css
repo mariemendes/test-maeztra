@@ -1,0 +1,9 @@
+.items {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  padding: 20px 0px;
+}
+.items img {
+  width: 17rem;
+}

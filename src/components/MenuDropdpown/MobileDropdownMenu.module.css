@@ -1,0 +1,21 @@
+/* src/components/MobileDropdownMenu.module.css */
+.mobileDropdownMenu {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.menuTitle {
+  cursor: pointer;
+  padding: 5px;
+  background-color: #eee;
+}
+
+.menuItems {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

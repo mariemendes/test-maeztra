@@ -1,0 +1,130 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divFooter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 291px;
+  grid-gap: 20rem;
+  text-align: initial;
+}
+.divFooter h1 {
+  font-size: 16px;
+}
+.divFooter ul {
+  padding-top: 50px;
+}
+.divFooter a {
+  font-size: 12px;
+}
+.divBottomFooter {
+  background-color: #353535;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 85px;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.divBottomFooter ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+@media (min-width: 991px) {
+  .divBottomFooter div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+  }
+  .divBottomFooter div:last-child {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .divBottomFooter {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: auto;
+  }
+  .divBottomFooter div {
+    justify-content: center;
+    text-align: center;
+    display: grid;
+  }
+  .divFooter {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: auto;
+    grid-gap: 0;
+  }
+  .divFooter ul {
+    padding-top: 0;
+  }
+}
+.divBottomFooter p {
+  font-size: 10px;
+  text-align: initial;
+}
+.divBottomFooter span {
+  text-align: initial;
+}
+.divBottomFooter img {
+  height: 32px;
+}
+
+.divBottomFooter div:last-child img {
+  height: 25px;
+}
+
+.footerMobile {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.footerMobile button {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #fafafa;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #fafafa;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  display: none;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.menu.open {
+  top: 100%;
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.menu li {
+  padding: 10px;
+}
+
+.menu li:last-child {
+  border-bottom: none;
+}
+
+.content {
+  margin-top: 20px;
+}

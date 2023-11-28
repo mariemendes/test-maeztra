@@ -1,0 +1,49 @@
+.divTipBar {
+  padding: 20px 0;
+}
+.divTipBar h1 {
+  font-weight: 700;
+}
+
+.divTipBarItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 10px;
+}
+.items {
+  display: flex;
+  align-items: center;
+  background-color: #efefef;
+  border-radius: 8px;
+  width: 17rem;
+  padding: 20px 0px;
+}
+
+.items img {
+  width: 32px;
+  height: 32px;
+  padding: 0 20px;
+}
+
+.items div:last-child {
+  display: grid;
+  text-align: left;
+}
+.divTipBarItems span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.divTipBarItems p {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .divTipBarItems {
+    display: block;
+  }
+  .items {
+    width: auto;
+  }
+}

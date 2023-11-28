@@ -1,0 +1,11 @@
+.partners h1 {
+  font-weight: 700;
+}
+
+.divPartners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 10px;
+}

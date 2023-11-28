@@ -1,0 +1,22 @@
+.txtBanner {
+  position: absolute;
+  top: 10%;
+  left: 22%;
+  width: 400px;
+  text-align: left;
+  color: white;
+}
+
+.txtBanner a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+@media (max-width: 991px) {
+  .buttonBanner {
+    width: 76px;
+    height: 28px;
+    font-size: 14px;
+  }
+}

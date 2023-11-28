@@ -1,0 +1,27 @@
+.divCollection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.divCollection div:first-child {
+  text-align: left;
+  width: 420px;
+}
+
+.divCollection img {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .divCollection {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr;
+  }
+  .divCollection div:first-child {
+    width: auto;
+  }
+}

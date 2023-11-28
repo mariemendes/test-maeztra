@@ -1,0 +1,39 @@
+.product {
+  display: grid;
+  grid-template-rows: 1.5fr 1fr;
+}
+.divDescriptionProduct {
+  min-height: 221px;
+}
+.divDescriptionProduct h2 {
+  font-weight: 400;
+}
+.divDescriptionProduct p {
+  min-height: 54px;
+}
+.divDescriptionProduct button {
+  width: 100%;
+  height: 35px;
+}
+.divProduct {
+  width: 308px;
+  min-height: 601px;
+  display: flex;
+}
+.divProduct img {
+  width: 308px;
+  max-height: 380px;
+}
+.divProductInfos {
+  display: grid;
+  text-align: left;
+  padding: 0px 20px 5px 20px;
+}
+
+.colors {
+  border: 1px solid transparent;
+
+  &:hover {
+    border: 1px solid #faa500;
+  }
+}
