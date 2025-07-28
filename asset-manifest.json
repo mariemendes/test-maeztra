@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/maeztra-lp/static/css/main.95bda4b5.css",
+    "main.js": "/maeztra-lp/static/js/main.3fadb8e1.js",
+    "static/media/Maeztra_Logo.svg": "/maeztra-lp/static/media/Maeztra_Logo.a21cbc070c9a611886a5389182999d9e.svg",
+    "static/media/mastercard.svg": "/maeztra-lp/static/media/mastercard.98f0ac24485061c5c1ff037a83063851.svg",
+    "static/media/Vtex_Logo.svg": "/maeztra-lp/static/media/Vtex_Logo.0343480669eb52e9cce99e764dbb57a1.svg",
+    "static/media/instagram.svg": "/maeztra-lp/static/media/instagram.8f5f736448c0fb26a630700649a48613.svg",
+    "static/media/visa.svg": "/maeztra-lp/static/media/visa.29c8072c239d23a14e403db7cff73329.svg",
+    "static/media/bag.svg": "/maeztra-lp/static/media/bag.a51f61e6e18e1a03c7d2e0807d28ed48.svg",
+    "static/media/heart.svg": "/maeztra-lp/static/media/heart.338fa8a9373a77dc665ac345509809c9.svg",
+    "static/media/account.svg": "/maeztra-lp/static/media/account.2c9211200a124ccadd601ae908031b66.svg",
+    "static/media/look.svg": "/maeztra-lp/static/media/look.cb3400d301efefc9b17d39c42ed2351d.svg",
+    "static/media/youtube.svg": "/maeztra-lp/static/media/youtube.a9768b50c6e827f77b052f13511799dd.svg",
+    "index.html": "/maeztra-lp/index.html",
+    "static/media/linkedin.svg": "/maeztra-lp/static/media/linkedin.33e7a284c717e55e6992f6fac65edde8.svg",
+    "static/media/facebook.svg": "/maeztra-lp/static/media/facebook.bed7d4f0aa0ceb0a54bc6f5ea4514b21.svg",
+    "main.95bda4b5.css.map": "/maeztra-lp/static/css/main.95bda4b5.css.map",
+    "main.3fadb8e1.js.map": "/maeztra-lp/static/js/main.3fadb8e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95bda4b5.css",
+    "static/js/main.3fadb8e1.js"
+  ]
+}
