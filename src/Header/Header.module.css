@@ -58,7 +58,9 @@
 }
 .navDesktop {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-auto-flow: column;
+  overflow-x: auto;
+  white-space: nowrap;
   max-height: 48px;
   height: 48px;
   align-items: center;
